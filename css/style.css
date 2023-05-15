@@ -136,7 +136,7 @@ img {
     display: flex;
     gap: 24px;
 }
-.benefits-list__item {
+.benefits-list__item:first-child {
     width: calc((100% - 72px) / 4);
 }
 .benefits-list__item-title {
