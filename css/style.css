@@ -136,10 +136,10 @@ img {
     display: flex;
     gap: 24px;
 }
-.benefits-list__item:first-child {
+.benefits-list-item {
     width: calc((100% - 72px) / 4);
 }
-.benefits-list__item-title {
+.benefits-list-item-title {
     margin-bottom: 8px;
 }
 .list-title {
