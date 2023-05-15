@@ -16,6 +16,15 @@ body {
 .list {
     list-style: none;
 }
+img {
+    display: block;
+}
+.container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -31,12 +40,20 @@ body {
 .logo-white {
     color: #f4f4fd;
 }
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-menu {
+    display: flex;
+    gap: 40px;
+}
 .header-menu__link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 .header-menu__link:hover,
 .header-menu__link:focus
@@ -45,19 +62,38 @@ body {
 }
 .header-address {
     font-style: normal;
+    display: flex;
 }
 .header-contact__link {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.header-contact {
+    gap: 40px;
+}
 .header-contact__link:hover,
 .header-contact__link:focus
 {
     color: #404bbf;
 }
+.header .nav {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    margin-right: 76px;
+}
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
+}
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.footer-info__text {
+    max-width: 264px;
 }
 .hero {
     background-color: #2e2f42;
