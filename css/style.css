@@ -237,6 +237,8 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    margin: 0;
+    padding: 0;
 }
 .portfolio-list__item-wrapper {
     width: calc((100% - 48px) / 3);
