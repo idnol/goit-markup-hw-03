@@ -62,6 +62,9 @@ img {
 .logo-white {
     color: #f4f4fd;
 }
+.footer-logo {
+    margin-bottom: 18px;
+}
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -131,7 +134,8 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
-    margin: 0 auto;
+    margin: 0 auto 48px auto;
+
 }
 .hero-button {
     font-family: "Roboto", sans-serif;
