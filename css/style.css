@@ -11,6 +11,20 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+ul {
+    padding-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul
+{
+    margin: 0;
+}
 .link {
     text-decoration: none;
     display: inline-block;
@@ -24,6 +38,7 @@ body {
 img {
     display: block;
 }
+
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -70,6 +85,8 @@ img {
 .header-address {
     font-style: normal;
     display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 .header-contact__link {
     line-height: 1.5;
@@ -101,6 +118,7 @@ img {
 }
 .footer-info__text {
     max-width: 264px;
+    color: var(--color-white);
 }
 .hero {
     background-color: #2e2f42;
@@ -113,6 +131,7 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    margin: 0 auto;
 }
 .hero-button {
     font-family: "Roboto", sans-serif;
@@ -128,6 +147,7 @@ img {
     border: none;
     background-color: var(--text-color-blue);
     border-radius: 4px;
+    margin: 0 auto;
 }
 .hero-button:hover,
 .hero-button:focus
